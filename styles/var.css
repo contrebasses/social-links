@@ -1,11 +1,12 @@
 /* HERE BE VARIABLES */
 
 :root {
-    --background: #141414;
-    --card-background: #1f1f1f;
-    --link-background: #333;
-    --text: #f7f7f7;
-    --accent: #a5cd04;
+    --background: hsl(0, 0%, 8%);
+    --card-background: hsl(0, 0%, 12%);
+    --link-background: hsl(0, 0%, 20%);
+    --text: hsl(0, 0%, 100%);
+    --accent: hsl(75, 94%, 57%);
+    --font-size: 14px;
     --space-500: 3rem;
     --space-300: 2rem;
     --space-200: 1rem;
