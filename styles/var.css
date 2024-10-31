@@ -1,0 +1,12 @@
+/* HERE BE VARIABLES */
+
+:root {
+    --background: #141414;
+    --card-background: #1f1f1f;
+    --link-background: #333;
+    --text: #f7f7f7;
+    --accent: #a5cd04;
+    --space-500: 3rem;
+    --space-300: 2rem;
+    --space-200: 1rem;
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gen */
+/* ****************************** */
+
+/* Typo */
+/* ****************************** */
+
+
+body {
+    height: 100vh;
+    padding: 2rem 0;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* HEADER */
+/* ***/
+
+/* MAIN */
+/* ************************ */
+.card {
+    background-color: var(--card-background);
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: var(--space-200);
+    border-radius: 20px;
+    padding: var(--space-500);
+    margin: auto;
+}
+.card img {
+    border-radius: 100px;
+    width: 8rem;
+}
+
+.location {
+    color: var(--accent);
+}
+
+.bio {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+}
+
+h3 {
+    width: 100%;
+    padding: 0.8rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    color: var(--text);
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    margin: 1rem;    
+    border-radius: 10px;
+    background-color: var(--link-background);
+    list-style-type: none;
+}
+li:hover {
+    background-color: var(--accent);
+}
+li:hover h3 {
+    color: var(--background);
+}
+
+.attribution {
+    font-size: 0.6rem;
+    text-align: center;
+    visibility: hidden;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
